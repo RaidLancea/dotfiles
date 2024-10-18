@@ -1,2 +1,6 @@
+import = [
+	"~/.config/alacritty/themes/themes/alabaster.toml"
+]
+
 [font]
 size = 10.0
