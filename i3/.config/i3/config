@@ -118,6 +118,10 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3? This will end your X session.' -B 'Yes' 'i3-msg exit'"
 
+# remove border
+default_border none
+default_floating_border none
+
 # set gaps
 gaps inner 15
 gaps outer 0
