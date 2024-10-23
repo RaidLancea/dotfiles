@@ -129,6 +129,6 @@ gaps outer 0
 # custom exec
 exec_always --no-startup-id picom
 exec_always --no-startup-id "setxkbmap -layout gb"
-exec_always --no-startup-id killall polybar
-exec_always --no-startup-id sh ~/.config/polybar/launch.sh
+# exec_always --no-startup-id killall polybar
+# exec_always --no-startup-id sh ~/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-scale ~/dotfiles/wallpapers/mint_jams_1366.png
